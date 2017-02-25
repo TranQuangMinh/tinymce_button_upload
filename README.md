@@ -36,6 +36,12 @@
  tinymce.init({
  	/* .. */
 	image_url_upload: configApp.url.load_upload_image_article_ajax,
+ 	plugins: [
+                '..',
+                '.. image ..',
+		'..'
+            ],
+    	toolbar1: [ .. image .. ]
 	/* .. */
 })	
 ```
